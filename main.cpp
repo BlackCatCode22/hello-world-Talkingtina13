@@ -1,36 +1,18 @@
 #include <iostream>
+
 using namespace std;
 
-int addTwoInts(int a, int b) {
-    return a + b;
-}
+int main()
+{
+    cout << "Welcome to my short programs" << endl;
 
-int findLargestOfThree(int x, int y, int z) {
-    return max(x, max(y, z));
-}
+    int num1 = 2;
+    int num2 = 4;
+    int sum = 0;
 
-int main() {
-    // Add two integers
-    int num1, num2;
-    cout << "Enter first integer: ";
-    cin >> num1;
-    cout << "Enter second integer: ";
-    cin >> num2;
-    
-    int sum = addTwoInts(num1, num2);
-    cout << "Sum of two integers: " << sum << endl;
+    sum = num1 + num2;
 
-    // Find the largest of three integers
-    int num3, largest;
-    cout << "Enter first integer: ";
-    cin >> num1;
-    cout << "Enter second integer: ";
-    cin >> num2;
-    cout << "Enter third integer: ";
-    cin >> num3;
-
-    largest = findLargestOfThree(num1, num2, num3);
-    cout << "Largest of three integers: " << largest << endl;
+    cout << "\n The sum of " << num1 << " and " << num2 << " is " << sum << "\n\n";
 
     return 0;
 }
