@@ -1,20 +1,21 @@
 #include <iostream>
 
 int main() {
-    // Declare variables
-    int userInput;
+    //Declare variables
+    int user_input;
 
-    // Prompt the user for input
-    std::cout << "Enter an integer: ";
-    
-    // Get input from the user
-    std::cin >> userInput;
+    //Prompt user for input
+    std::cout << "Enter an int: ";
+   
+   //get input
+    std::cin >> user_input;
 
-    // Double the input
-    int doubledValue = 2 * userInput;
-
-    // Display the result
-    std::cout << "Twice of " << userInput << " is: " << doubledValue << std::endl;
+    //Double input
+    int result = user_input *  2;
+   
+   // display result
+    std::cout << "The double of " << user_input << " is " << result << std::endl;
 
     return 0;
 }
+

@@ -2,20 +2,19 @@
 
 int main() {
     // Declare variables
-    int userInput;
+    int user_Input;
 
     // Prompt the user for input
-    std::cout << "Enter an integer: ";
+    std::cout << "Enter an int: ";
     
     // Get input from the user
-    std::cin >> userInput;
+    std::cin >> user_Input;
 
     // Triple the input
-    int tripledValue = 3 * userInput;
+    int result = user_Input * 3;
 
     // Display the result
-    std::cout << "Thrice of " << userInput << " is: " << tripledValue << std::endl;
-
+    std::cout << "The triple of " << user_Input << " is " << result << std::endl;
     return 0;
 }
 
